@@ -122,7 +122,7 @@ function runProgram() {
    let inputWord = initialPrompt()   
    let scoreChoice = scorerPrompt()
    
-   console.log(scoreChoice.scoringFunction(inputWord))
+   console.log(scoreChoice.scorerFunction(inputWord))
 
 
    
